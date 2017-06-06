@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+<LinearLayout
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="com.example.mubasharahmad.carrentaalsystem.MainActivity"
+    android:weightSum="1">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/car"
+            android:scaleType="fitXY"
+            android:scaleY="2" />
+
+            <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="STARTING TIME"
+                android:textSize="25dp"
+                android:textStyle="bold"
+                android:layout_marginTop="56dp"
+                android:drawableLeft="@drawable/marker"
+                android:gravity="center_vertical" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="DATE"
+        android:id="@+id/pick_date"
+        android:clickable="true"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:gravity="center_vertical"
+        android:drawableLeft="@drawable/calendar"/>
+    <DatePicker
+        android:id="@+id/dpResult"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:id="@+id/pick_time"
+        android:layout_height="wrap_content"
+        android:text="TIME"
+        android:clickable="true"
+        android:textStyle="bold"
+        android:gravity="center_vertical"
+        android:textSize="25dp"
+        android:drawableLeft="@drawable/clock"/>
+
+    <TimePicker
+        android:id="@+id/simpleTimePicker"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:timePickerMode="spinner"
+        android:visibility="gone"/>
+
+
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="DROP-OFF TIME"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:gravity="center_vertical"
+        android:layout_marginTop="56dp"
+        android:drawableLeft="@drawable/marker"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="DATE"
+        android:clickable="true"
+        android:textStyle="bold"
+        android:gravity="center_vertical"
+        android:textSize="25dp"
+        android:id="@+id/date_drop"
+        android:drawableLeft="@drawable/calendar"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TIME"
+        android:id="@+id/time_drop"
+        android:clickable="true"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:gravity="center_vertical"
+        android:drawableLeft="@drawable/clock"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/car_name"
+        android:clickable="true"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:gravity="center_vertical"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Set Title"
+        android:id="@+id/Title"
+        android:clickable="true"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:gravity="center_vertical"
+        />
+
+    <Button
+        android:id="@+id/next"
+        android:layout_gravity="center"
+        android:layout_width="250dp"
+        android:layout_height="80dp"
+        android:background="@drawable/mybutton"
+        android:text="Next"
+        android:textSize="20dp"/>
+
+
+</LinearLayout>
+</ScrollView>
