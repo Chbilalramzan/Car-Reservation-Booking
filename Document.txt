@@ -1,0 +1,39 @@
+Aslam o Alaikum 
+
+Car reservation application for android
+
+This project just retrieve the information form a server using json parsing..and you can only sent a request to server 
+to reserve your car.
+
+i have no server to get info and sent request therefore i used wamp server and sending my data using php files
+my to server and getting data through same process.
+
+features
+->Login 
+->Sign up
+-> Gallery (Show cars available and reserved with their status)
+->Reserve (Show only available cars )
+->car details
+->pick up and drop time
+->customer info
+->about
+->sign out
+etc
+
+I have used navigation drawer in my android applicatoion all codes and files are uploaded for naviagtion drawer 
+and tab views
+
+NOTE:- 
+	if you are using wampp server or mysql database then place your php files and folders into this directory
+
+			C:\wamp64\www
+
+	and also note that this app is only runable on emmulator of android studio because i have used the 
+	default ip address of emulator if you want to make and apk for moblie you have to make sure about the ips and 
+	internet connections.
+
+-> Enginebay (Contains all files and folder regarding mobile app)
+->include (contain all files regarding php mysql)
+->project (contain files of wampp tables rows and columns)
+
+thank you and Enjoy 
